@@ -27,10 +27,21 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/jquery-slimscroll/jquery.slimscroll.js",
+              "node_modules/icheck/icheck.js",
+              "node_modules/fastclick/lib/fastclick.js",
+              "node_modules/admin-lte/dist/js/adminlte.js"
             ],
-            "scripts": []
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/admin-lte/dist/css/AdminLTE.css",
+              "node_modules/admin-lte/dist/css/skins/_all-skins.css",
+              "node_modules/icheck/skins/square/blue.css",
+              "src/styles.scss"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,14 +99,21 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/jquery-slimscroll/jquery.slimscroll.js",
+              "node_modules/icheck/icheck.js",
+              "node_modules/fastclick/lib/fastclick.js",
+              "node_modules/admin-lte/dist/js/adminlte.js"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/admin-lte/dist/css/AdminLTE.css",
+              "node_modules/admin-lte/dist/css/skins/_all-skins.css",
+              "node_modules/icheck/skins/square/blue.css",
               "src/styles.scss"
-            ],
-            "scripts": []
+            ]
           }
         },
         "lint": {

@@ -1,0 +1,48 @@
+<div class="login-box">
+  <div class="login-logo">
+    <b>{{'first'}}</b> {{'second'}}
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <p class="login-box-msg">
+      Enter your credentials
+    </p>
+
+    <form  novalidate>
+      <div class="form-group has-feedback">
+        <input type="email" class="form-control" placeholder="Email">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+
+        <small class="text-danger">
+          Email is required.
+        </small>
+        <small class="text-danger">
+          Please, insert a valid email.
+        </small>
+      </div>
+
+      <div class="form-group has-feedback has-error">
+        <input type="password" class="form-control" placeholder="Sua senha">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+
+        <small class="text-danger">
+          Password is required.
+        </small>
+
+      </div>
+
+      <p class="text-danger">Error message</p>
+
+      <div class="row">
+        <div class="col-xs-8">
+        </div>
+        <div class="col-xs-4">
+          <button type="button" (click)="goDashboard()" class="btn btn-primary btn-block btn-flat">Sign in</button>
+        </div>
+      </div>
+    </form>
+
+    <a [routerLink]="['/auth/forgot-password']">I've forgot my password</a><br>
+
+  </div>
+</div>
